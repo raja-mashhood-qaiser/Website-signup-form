@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="logo">
+            <!-- <img src="image/logo.png" alt="Loading"> -->
+            <h2>Register Now</h2>
+        </div>
+        <form>
+            <h3>Create Account</h3>
+            <label for="your_name">Your name</label><br>
+            <input type="text" name="your_name" id="your_name" autocomplete="off"  required><br>
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email" autocomplete="off"  required><br>
+            <label for="Password">Password</label><br>
+            <input type="password" name="Password" id="Password" autocomplete="off"  required><br>
+            <label for="re-pass">Re-enter pasword</label><br>
+            <input type="password" name="re-pass" id="re-pass" autocomplete="off"  required><br>
+            <label style="padding-right: 15px;">   
+                Gender :  
+                </label> 
+                <input type="radio" value="Male" id="gender" name="gender" checked > Male   
+                <input type="radio" value="Female" id="gender" name="gender"> Female   
+                <input type="radio" value="Other" id="gender" name="gender"> Other  
+            <input type="submit" value="Create Account"> <br>
+            <p>By creating an account, you agree to Amazon's <a href=>Conditions of Use</a> and <a href=>Privacy Notice</a>.</p>
+        </form>
+    </div>
+
+</body>
+</html>
